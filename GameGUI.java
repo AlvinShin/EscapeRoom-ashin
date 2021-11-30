@@ -82,9 +82,9 @@ public class GameGUI extends JComponent
   
     // player image, student can customize this image by changing file on disk
     try {
-      player = ImageIO.read(new File("player.png"));      
+      player = ImageIO.read(new File("luffy.png"));
     } catch (Exception e) {
-     System.err.println("Could not open file player.png");
+     System.err.println("Could not open file luffy.png");
     }
     // save player location
     playerLoc = new Point(x,y);
